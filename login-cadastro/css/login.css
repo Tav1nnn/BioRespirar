@@ -1,0 +1,109 @@
+*{
+    background-color: #9f82e6;
+}
+/* H1 "BIO RESPIRAR"*/
+h1{
+    font-family: Cambria;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+}
+
+/*IMAGEM DO PULMÃO*/
+#img-pulmao{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*SELECTION FORM-LOGIN*/
+#form-login{
+    height: 100vh;
+    padding: 25px;
+    
+}
+
+/*DIV QUE FICA O INPUT EMAIL E SENHA*/
+#email-senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*COR DO ICON*/
+.bi{
+    background-color: #e9ecef;
+}
+
+/*DIV DA CAIXA DE TEXTO (INPUT)*/
+.input-group{
+    max-width: 500px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.555);
+    margin-top: 30px;
+}
+
+/*BOTÃO ACESSAR*/
+#btn-acessar{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+/*CLASSE DO BOTÃO*/
+.btn{
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    background-color: #4cf27c;
+    border: none;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/*DIV DO "ESQUECEU SENHA" E "CADASTRAR"*/
+#esqueceu-cadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+a.esqueceu-cadastrar{
+    text-decoration: none;
+    text-decoration: underline;
+    font-size: 18px;
+    color:black;
+    padding: 4px;
+    
+}
+/* PARA O SCROL FICA CERTINHO*/
+@media (max-width: 769px){
+    #btn-acessar{
+        margin-top: 30px;
+    }
+    #esqueceu-cadastrar{
+        margin-top: 25px;
+    }
+    .input-group{
+        margin-top: 20px;
+    }
+}

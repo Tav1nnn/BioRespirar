@@ -1,0 +1,44 @@
+#mid2{
+    margin-top: 80px;
+}
+
+/*div do texto*/
+#text2{
+    max-width: 500px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    
+}
+
+/*@media para a img se adaptar*/
+@media(max-width: 1024px){
+    .imgAvatar2{
+        max-width: 160px;
+    }
+}
+@media(max-width: 768px){
+    .imgAvatar2{
+        max-width: 150px;
+    }
+}
+@media(max-width: 425px){
+    .imgAvatar2{
+        max-width: 145px;
+    }
+}
+@media(max-width: 375px){
+    .imgAvatar2{
+        max-width: 140px;
+    }
+}
+@media(max-width:320px){
+    .imgAvatar2{
+        max-width: 130px;
+    }
+
+    h5{
+        font-size: 17px;
+    }
+}
+

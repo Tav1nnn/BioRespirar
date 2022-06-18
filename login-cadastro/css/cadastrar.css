@@ -1,0 +1,80 @@
+* {
+    background-color: #9f82e6;
+
+}
+
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-close {
+    background-color: white;
+}
+
+#btn-fechar {
+    margin-top: 5px;
+    float: left;
+}
+
+/*PRO ICON NÃO FICAR ROXO*/
+.bi {
+    background-color: #e9ecef;
+    
+}
+
+/*SELECTION QUE FICA O FORM*/
+#form-cadastro {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#container{
+    height: 100vh;
+    padding: 25px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/*CLASSE DOS INPUT*/
+.input-group {
+    max-width: 500px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.555);
+    margin-top: 30px;
+}
+
+/*DIV QUE FICA OS INPUT*/
+#campos-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*CLASSE DO BOTÃO*/
+#btn-cadastar {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    color: black;
+    background-color: #4cf27c;
+    font-weight: bold;
+    width: 200px;
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+}

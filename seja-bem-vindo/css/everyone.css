@@ -1,0 +1,66 @@
+/* external css: flickity.css */
+/*css everyone carrossel*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #9f82e6;
+}
+
+.carousel{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.top {
+    width: 100%;
+    max-width: 600px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.containertop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+a.pular-a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.titulo {
+    color: white;
+    margin: 30px 25px;
+    position: relative;
+    float: right;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+}

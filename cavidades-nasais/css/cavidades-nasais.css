@@ -1,0 +1,119 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: linear-gradient(#b8ffaa,#8acaf2);
+    height: 100vh;
+}
+
+#top{
+    padding-top: 20px;
+}
+#container{
+    padding-top: 30px;
+    width: 100%;
+    max-width: 600px;
+
+}
+#center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-close {
+    background-color: white;
+}
+#btn-fechar{
+    padding-left: 15px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:#7f47ee;
+}
+
+#img{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4.descricaoOrgao{
+    padding: 10px 10px 0px 10px;
+    text-align: justify;
+}
+
+h4.detalhes{
+    background-color: purple;
+}
+
+#botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+a{
+    padding-top:10px ;
+}
+.btn{
+    
+    background-color: #4cf27c;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+
+@media(max-width: 1024px){
+   
+}
+@media(max-width: 768px){
+    .img-fluid{
+        width: 145px;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    
+}
+@media(max-width: 425px){
+    .img-fluid{
+        width: 125px;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    h4{
+        font-size: 18px;
+    }
+}
+@media(max-width: 375px){
+    .img-fluid{
+        width: 125px;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    h4{
+        font-size: 18px;
+    }
+}
+@media(max-width:320px){
+   .img-fluid{
+       width: 120px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+   h4{
+       font-size: 18px;
+   }
+}
+
