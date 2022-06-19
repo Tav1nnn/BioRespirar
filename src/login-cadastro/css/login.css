@@ -95,6 +95,12 @@ a.esqueceu-cadastrar{
     padding: 4px;
     
 }
+
+.img{
+    vertical-align: middle;
+    background: #e9ecef;
+}
+
 /* PARA O SCROL FICA CERTINHO*/
 @media (max-width: 769px){
     #btn-acessar{

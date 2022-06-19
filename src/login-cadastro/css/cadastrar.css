@@ -18,7 +18,7 @@ h1 {
     background-color: white;
 }
 
-#btn-fechar {
+.btn-fechar {
     margin-top: 5px;
     float: left;
 }
@@ -30,13 +30,13 @@ h1 {
 }
 
 /*SELECTION QUE FICA O FORM*/
-#form-cadastro {
+.form-cadastro {
     display: flex;
     justify-content: center;
    
 }
 
-#container{
+.container{
     height: 100vh;
     padding: 25px;
     width: 100%;
@@ -51,7 +51,7 @@ h1 {
 }
 
 /*DIV QUE FICA OS INPUT*/
-#campos-cadastro {
+.campos-cadastro {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ h1 {
 }
 
 /*CLASSE DO BOTÃO*/
-#btn-cadastar {
+.btn-cadastar {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -78,3 +78,13 @@ h1 {
     background-color: green;
     color: white;
 }
+
+.img{
+    vertical-align: middle;
+    background: #e9ecef;
+}
+
+.form-control{
+    box-shadow: none;
+}
+
