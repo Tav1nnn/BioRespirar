@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    
+}
+.container{
+    background: linear-gradient(#b8ffaa, #82c4fd);
+}
+
+.img{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.menu-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+}
