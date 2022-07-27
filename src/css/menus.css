@@ -1,0 +1,55 @@
+*{
+    font-family: 'Roboto', sans-serif;
+       
+}
+
+body{
+    background-color: #9f82e6;
+}
+#img{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: Cambria;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+
+}
+h2{
+
+   color: white;
+}
+.svg{
+    width: 5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  
+}
+
+.btn{
+   width: 20rem;
+   height: 4rem;
+    background-color: #4cf27c;
+    margin-top: 5rem;   
+    font-weight: bold;
+  font-size: 1.3rem;
+
+}
+
+.botoes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-direction: column;
+    
+}
+.btn:hover{
+    font-size: 1.5rem;
+}
