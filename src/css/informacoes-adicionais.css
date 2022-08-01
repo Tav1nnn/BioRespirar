@@ -29,12 +29,13 @@ h1 {
 }
 
 h2 {
-    color: #49c556;
+    color: #56cc5c;
 }
 
 .carousel {
     height: 70%;
-    background: #9f82e6;
+    /*background: #9f82e6;*/
+    background:#d6b6ff;
     border-radius: 20px;
 }
 
@@ -48,10 +49,12 @@ ul {
 
 h5 {
     color: black;
+    text-align: justify;
 }
 
 .red {
-    color: rgba(255, 0, 0, 0.758);
+    color: #00297f;
+    font-weight: bold;
 }
 
 .menu {
@@ -74,6 +77,21 @@ h5 {
     align-items: center;
 }
 
+.modal-content{
+    background-color: green;
+   
+}
+
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-title{
+    color: white;
+    font-weight: bold;
+}
 
 @media(max-width: 1024px) {
     h5 {
