@@ -105,3 +105,12 @@ h5 {
         font-size: 14px;
     }
 }
+.btn {
+    width: 100vw;
+    max-width: 270px;
+    background-color: #4cf27c;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
