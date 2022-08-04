@@ -1,0 +1,19 @@
+.menu {
+    border: 2px solid gray;
+    bottom: 0;
+    position: fixed;
+    padding: 6px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
