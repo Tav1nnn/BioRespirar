@@ -34,7 +34,8 @@ h2 {
 
 .carousel {
     height: 70%;
-    background: #9f82e6;
+    /*background: #9f82e6;*/
+    background:#d6b6ff;
     border-radius: 20px;
 }
 
