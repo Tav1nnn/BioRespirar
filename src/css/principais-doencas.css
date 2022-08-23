@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 .container {
@@ -49,10 +50,12 @@ ul {
 
 h5 {
     color: black;
+    text-align: justify;
 }
 
 .red {
-    color: rgba(255, 0, 0, 0.758);
+    color: #00297f;
+    font-weight: bold;
 }
 
 .menu {
@@ -73,6 +76,23 @@ h5 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+.modal-content{
+    background-color: green;
+   
+}
+
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-title{
+    color: white;
+    font-weight: bold;
 }
 
 
