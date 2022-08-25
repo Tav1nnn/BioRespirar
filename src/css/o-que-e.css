@@ -3,13 +3,13 @@
     padding: 0;
     font-family: 'Roboto';
 }
-
+body{
+    background: linear-gradient(#b8ffaa, #82c4fd);
+}
 .container {
     padding-top: 20px;
-    background: linear-gradient(#b8ffaa, #82c4fd);
     width: 100%;
     max-width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -38,11 +38,13 @@ h1{
 
 .texto{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 550px;
+    
 }
 
+
 h2 {
+    
     color: #16b31e;
     font-weight: bold;
     text-decoration: underline;
