@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto';
+}
+
+.btn-lg{
+    display: none;
+}
+
+.top {
+    width: 100%;
+    max-width: 600px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.containertop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+a.pular-a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#tutorial1{
+    padding-top: 10%;
+}
+
+#textT1{
+    font-weight: bold;
+}
+
+h4{
+    flex-direction: column;
+    color: white;
+    
+}
+
+h4.balao{
+    color: black;
+    font-size: 17px;
+}
+
+#tutorial2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-left: 200px;
+   padding-top: 30px;
+}
+
+.balloon-box .balloon-circle{
+    padding-right:100px;
+}
+
+.seicentos{
+    
+}

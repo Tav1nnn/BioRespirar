@@ -1,0 +1,37 @@
+.balloon-box {
+    width: 200px;
+    height: 145px;
+    background: #f1f1f1;
+    border-radius: 26.5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .balloon-box::after {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    bottom: -7px;
+    right: 30px;
+  }
+  .balloon-box::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #f1f1f1;
+    position: absolute;
+    right: 15px;
+    bottom: -21px;
+  }
+  .balloon-box {
+    filter: drop-shadow(0 0 3px rgba(0,0,0,.5));
+  }
