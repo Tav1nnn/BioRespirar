@@ -5,15 +5,226 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Inicial</title>
+    <title>Página Inicial</title>
     <link rel="icon" href="../../icon-192x192.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../css/tutorial.css">
+    <link rel="stylesheet" href="../css/balao.css">
 
     <link rel="stylesheet" href="../css/pag-inicial.css">
     <link rel="stylesheet" href="../css/menu-rodape.css">
 
+
+    <script src="../js/verificaCookie.js"></script>
+
+    <script>
+         var cookieName = 'controleAcesso';
+         var cookieValue = 'tutorial';
+
+         if (!verificarCookie(cookieName, cookieValue)) {
+            jQuery(document).ready(function (e) {
+                    jQuery('#mymodal').trigger('click');
+                });
+         }
+        criarCookie(cookieName, cookieValue);
+    </script>
+
 </head>
 
 <body>
+    <!-- Button trigger modal -->
+    <button type="button" id="mymodal" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        data-backdrop="static" data-keyboard="false">
+
+        <div class="containertop">
+            <div class="top">
+                <!--Imagem do Pulmão-->
+                <div class="imgSologan">
+                    <img src="../../img/pulmao.png" alt="" width="100px" class="imgPulmao img-responsive">
+                </div>
+
+                <!--Btn pular-->
+                <div class="pular">
+                    <a class="pular-a" id="mymodal" data-toggle="modal" data-target="#myModal2" data-dismiss="modal">
+                        <h4>PRÓXIMO</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container2" id="tutorial1">
+
+            <div><img src="../../img/avatar4.png" height="180px" alt=""></div>
+
+            <div class="text">
+                <h4 id="textT1">
+                    <p>Ebaaaaaaaaaa!!</p>
+                    <p>É muito bom ter você aqui.</p>
+                    <p>Bora aprender mais sobre o Sistema Respiratório Humano</p>
+                </h4>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        data-backdrop="static" data-keyboard="false">
+
+        <div class="containertop">
+            <div class="top">
+                <!--Imagem do Pulmão-->
+                <div class="imgSologan">
+                    <img src="../../img/pulmao.png" alt="" width="100px" class="imgPulmao img-responsive">
+                </div>
+
+                <!--Btn pular-->
+                <div class="pular">
+                    <a class="pular-a" id="mymodal" data-toggle="modal" data-target="#myModal3" data-dismiss="modal">
+                        <h4>PRÓXIMO</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="balloon-box balloon-circle">
+                <h4 class="balao">
+                    <p class="balloon-text"><img src="../../img/question.svg" alt=""> Este icone direciona para a tela
+                        "Ajuda" toda vez que você clicar nele eu irei
+                        te explicar as funcionalidades da tela em que você está.</p>
+                </h4>
+            </div>
+
+        </div>
+        <div class="seicentos">
+            <div class="img" id="tutorial2">
+                <img src="../../img/avatar1.png" alt="" height="300px">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        data-backdrop="static" data-keyboard="false">
+
+        <div class="containertop">
+            <div class="top">
+                <!--Imagem do Pulmão-->
+                <div class="imgSologan">
+                    <img src="../../img/pulmao.png" alt="" width="100px" class="imgPulmao img-responsive">
+                </div>
+
+                <!--Btn pular-->
+                <div class="pular">
+                    <a class="pular-a" id="mymodal" data-toggle="modal" data-target="#myModal4" data-dismiss="modal">
+                        <h4>PRÓXIMO</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="balloon-box balloon-circle">
+                <h4 class="balao">
+                    <p class="balloon-text"><img src="../../img/house.svg" alt="">Este icone direciona para a tela
+                        "Home", sempre que você clicar nele retornará para a
+                        tela principal do aplicativo.</p>
+                </h4>
+            </div>
+
+        </div>
+        <div class="seicentos">
+            <div class="img" id="tutorial2">
+                <img src="../../img/avatar1.png" alt="" height="300px">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        data-backdrop="static" data-keyboard="false">
+
+        <div class="containertop">
+            <div class="top">
+                <!--Imagem do Pulmão-->
+                <div class="imgSologan">
+                    <img src="../../img/pulmao.png" alt="" width="100px" class="imgPulmao img-responsive">
+                </div>
+
+                <!--Btn pular-->
+                <div class="pular">
+                    <a class="pular-a" id="mymodal" data-toggle="modal" data-target="#myModal5" data-dismiss="modal">
+                        <h4>PRÓXIMO</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="balloon-box balloon-circle">
+                <h4 class="balao">
+                    <p class="balloon-text">Bem-Vindo a tela principal do BioRespirar! Aqui você encontra a imagem do
+                        Sistema Respiratório Humano completo.</p>
+                </h4>
+            </div>
+
+        </div>
+        <div class="seicentos">
+            <div class="img" id="tutorial2">
+                <img src="../../img/avatar1.png" alt="" height="300px">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        data-backdrop="static" data-keyboard="false">
+
+        <div class="containertop">
+            <div class="top">
+                <!--Imagem do Pulmão-->
+                <div class="imgSologan">
+                    <img src="../../img/pulmao.png" alt="" width="100px" class="imgPulmao img-responsive">
+                </div>
+
+                <!--Btn pular-->
+                <div class="pular">
+                    <a class="pular-a" onclick="criarCookie()" data-dismiss="modal">
+                        <h4>PRÓXIMO</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="balloon-box balloon-circle">
+                <h4 class="balao">
+                    <p class="balloon-text">Ao clicar em qualquer componente do Sistema (número ou nomes), você será
+                        redirecionado para a tela específica do contúdo de fisiologia referente a ele.</p>
+                </h4>
+            </div>
+
+        </div>
+        <div class="seicentos">
+            <div class="img" id="tutorial2">
+                <img src="../../img/avatar1.png" alt="" height="300px">
+            </div>
+        </div>
+
+
+    </div>
+
     <div class="container">
         <div class="img1024 img">
             <img src="../../img/corpoFundo3.png" usemap="#image-map" id="img1024">
@@ -44,15 +255,20 @@
             <img src="../../img/corpoFundo768px.png" usemap="#image-map768">
 
             <map name="image-map768">
-                <area target="" alt="CavidadesNasais" title="CavidadesNasais" href="../menus/m-cavidades-nasais.html" coords="315,118,486,141"
+                <area target="" alt="CavidadesNasais" title="CavidadesNasais" href="../menus/m-cavidades-nasais.html"
+                    coords="315,118,486,141" shape="rect">
+                <area target="" alt="Faringe" title="Faringe" href="../menus/m-faringe.html" coords="317,160,418,183"
                     shape="rect">
-                <area target="" alt="Faringe" title="Faringe" href="../menus/m-faringe.html" coords="317,160,418,183" shape="rect">
-                <area target="" alt="Laringe" title="Laringe" href="../menus/m-laringe.html" coords="117,189,214,210" shape="rect">
-                <area target="" alt="Traqueia" title="Traqueia" href="../menus/m-traqueia.html" coords="323,217,437,238" shape="rect">
-                <area target="" alt="Bronquios " title="Bronquios " href="../menus/brm-bronquios.htmlml" coords="96,266,210,286" shape="rect">
-                <area target="" alt="Bronquiolos" title="Bronquiolos" href="../menus/m-bronquiolos.html" coords="342,284,473,305" shape="rect">
-                <area target="" alt="AlveolosPulmonares" title="AlveolosPulmonares" href="../menus/m-alveolos-pulmonares.html" coords="359,331,526,351"
+                <area target="" alt="Laringe" title="Laringe" href="../menus/m-laringe.html" coords="117,189,214,210"
                     shape="rect">
+                <area target="" alt="Traqueia" title="Traqueia" href="../menus/m-traqueia.html" coords="323,217,437,238"
+                    shape="rect">
+                <area target="" alt="Bronquios " title="Bronquios " href="../menus/brm-bronquios.htmlml"
+                    coords="96,266,210,286" shape="rect">
+                <area target="" alt="Bronquiolos" title="Bronquiolos" href="../menus/m-bronquiolos.html"
+                    coords="342,284,473,305" shape="rect">
+                <area target="" alt="AlveolosPulmonares" title="AlveolosPulmonares"
+                    href="../menus/m-alveolos-pulmonares.html" coords="359,331,526,351" shape="rect">
                 <area target="" alt="Pulmao" title="Pulmao" href="../menus/m-pulmao.html" coords="" shape="rect">
             </map>
         </div>
@@ -62,17 +278,22 @@
             <img src="../../img/corpoFundo425px.png" usemap="#image-map425">
 
             <map name="image-map425">
-                <area target="" alt="CavidadesNasais" title="CavidadesNasais" href="../menus/m-cavidades-nasais.html" coords="240,96,366,115"
+                <area target="" alt="CavidadesNasais" title="CavidadesNasais" href="../menus/m-cavidades-nasais.html"
+                    coords="240,96,366,115" shape="rect">
+                <area target="" alt="Faringe" title="Faringe" href="../menus/m-faringe.html" coords="241,134,314,150"
                     shape="rect">
-                <area target="" alt="Faringe" title="Faringe" href="../menus/m-faringe.html" coords="241,134,314,150" shape="rect">
-                <area target="" alt="Laringe" title="Laringe" href="../menus/m-laringe.html" coords="87,156,161,174" shape="rect">
-                <area target="" alt="Traqueia" title="Traqueia" href="../menus/m-traqueia.html" coords="244,178,325,194,73,219,156,236,176,271"
+                <area target="" alt="Laringe" title="Laringe" href="../menus/m-laringe.html" coords="87,156,161,174"
                     shape="rect">
-                <area target="" alt="Bronquios" title="Bronquios" href="../menus/m-bronquios.html" coords="73,218,158,238" shape="rect">
-                <area target="" alt="Bronquiolos" title="Bronquiolos" href="../menus/m-bronquiolos.html" coords="255,236,356,254" shape="rect">
-                <area target="" alt="AlveolosPulmonares" title="AlveolosPulmonares" href="../menus/m-alveolos-pulmonares.html" coords="270,274,397,290"
+                <area target="" alt="Traqueia" title="Traqueia" href="../menus/m-traqueia.html"
+                    coords="244,178,325,194,73,219,156,236,176,271" shape="rect">
+                <area target="" alt="Bronquios" title="Bronquios" href="../menus/m-bronquios.html"
+                    coords="73,218,158,238" shape="rect">
+                <area target="" alt="Bronquiolos" title="Bronquiolos" href="../menus/m-bronquiolos.html"
+                    coords="255,236,356,254" shape="rect">
+                <area target="" alt="AlveolosPulmonares" title="AlveolosPulmonares"
+                    href="../menus/m-alveolos-pulmonares.html" coords="270,274,397,290" shape="rect">
+                <area target="" alt="Pulmao" title="Pulmao" href="../menus/m-pulmao.html" coords="23,280,133,297"
                     shape="rect">
-                <area target="" alt="Pulmao" title="Pulmao" href="../menus/m-pulmao.html" coords="23,280,133,297" shape="rect">
             </map>
         </div>
 
@@ -81,16 +302,22 @@
             <img src="../../img/corpoFundo375px.png" usemap="#image-map375">
 
             <map name="image-map375">
-                <area target="" alt="CavidadesNasais" title="CavidadesNasais" href="../menus/m-cavidades-nasais.html" coords="201,98,311,115"
+                <area target="" alt="CavidadesNasais" title="CavidadesNasais" href="../menus/m-cavidades-nasais.html"
+                    coords="201,98,311,115" shape="rect">
+                <area target="" alt="Faringe" title="Faringe" href="../menus/m-faringe.html" coords="204,133,270,150"
                     shape="rect">
-                <area target="" alt="Faringe" title="Faringe" href="../menus/m-faringe.html" coords="204,133,270,150" shape="rect">
-                <area target="" alt="Laringe" title="Laringe" href="../menus/m-laringe.html" coords="139,173,73,155" shape="rect">
-                <area target="" alt="Traqueia" title="Traqueia" href="../menus/m-traqueia.html" coords="207,179,279,195" shape="rect">
-                <area target="" alt="Bronquios" title="Bronquios" href="../menus/m-bronquios.html" coords="63,221,133,237" shape="rect">
-                <area target="" alt="Bronquiolos" title="Bronquiolos" href="../menus/m-bronquiolos.html" coords="219,236,306,252" shape="rect">
-                <area target="" alt="AlveolosPulmonares" title="AlveolosPulmonares" href="../menus/m-alveolos-pulmonares.html" coords="232,275,337,291"
+                <area target="" alt="Laringe" title="Laringe" href="../menus/m-laringe.html" coords="139,173,73,155"
                     shape="rect">
-                <area target="" alt="Pulmao" title="Pulmao" href="../menus/m-pulmao.html" coords="19,279,111,295" shape="0">
+                <area target="" alt="Traqueia" title="Traqueia" href="../menus/m-traqueia.html" coords="207,179,279,195"
+                    shape="rect">
+                <area target="" alt="Bronquios" title="Bronquios" href="../menus/m-bronquios.html"
+                    coords="63,221,133,237" shape="rect">
+                <area target="" alt="Bronquiolos" title="Bronquiolos" href="../menus/m-bronquiolos.html"
+                    coords="219,236,306,252" shape="rect">
+                <area target="" alt="AlveolosPulmonares" title="AlveolosPulmonares"
+                    href="../menus/m-alveolos-pulmonares.html" coords="232,275,337,291" shape="rect">
+                <area target="" alt="Pulmao" title="Pulmao" href="../menus/m-pulmao.html" coords="19,279,111,295"
+                    shape="0">
             </map>
         </div>
 
@@ -99,16 +326,22 @@
             <img src="../../img/corpoFundo320px.png" usemap="#image-map320" id="img320">
 
             <map name="image-map320">
-                <area target="" alt="CavidadesNasais" title="CavidadesNasais" href="../menus/m-cavidades-nasais.html" coords="159,95,275,110"
+                <area target="" alt="CavidadesNasais" title="CavidadesNasais" href="../menus/m-cavidades-nasais.html"
+                    coords="159,95,275,110" shape="rect">
+                <area target="" alt="Faringe" title="Faringe" href="../menus/m-faringe.html" coords="164,127,236,144"
                     shape="rect">
-                <area target="" alt="Faringe" title="Faringe" href="../menus/m-faringe.html" coords="164,127,236,144" shape="rect">
-                <area target="" alt="Laringe" title="Laringe" href="../menus/m-laringe.html" coords="66,151,143,168" shape="rect">
-                <area target="" alt="Traqueia" title="Traqueia" href="../menus/m-traqueia.html" coords="163,170,245,186" shape="rect">
-                <area target="" alt="Bronquios" title="Bronquios" href="../menus/m-bronquios.html" coords="54,211,135,228" shape="rect">
-                <area target="" alt="Bronquiolos" title="Bronquiolos" href="../menus/m-bronquiolos.html" coords="175,226,268,242" shape="rect">
-                <area target="" alt="AlveolosPulmonares" title="AlveolosPulmonares" href="../menus/m-alveolos-pulmonares.html" coords="183,262,299,279"
+                <area target="" alt="Laringe" title="Laringe" href="../menus/m-laringe.html" coords="66,151,143,168"
                     shape="rect">
-                <area target="" alt="Pulmao" title="Pulmao" href="../menus/m-pulmao.html" coords="19,266,124,285" shape="rect">
+                <area target="" alt="Traqueia" title="Traqueia" href="../menus/m-traqueia.html" coords="163,170,245,186"
+                    shape="rect">
+                <area target="" alt="Bronquios" title="Bronquios" href="../menus/m-bronquios.html"
+                    coords="54,211,135,228" shape="rect">
+                <area target="" alt="Bronquiolos" title="Bronquiolos" href="../menus/m-bronquiolos.html"
+                    coords="175,226,268,242" shape="rect">
+                <area target="" alt="AlveolosPulmonares" title="AlveolosPulmonares"
+                    href="../menus/m-alveolos-pulmonares.html" coords="183,262,299,279" shape="rect">
+                <area target="" alt="Pulmao" title="Pulmao" href="../menus/m-pulmao.html" coords="19,266,124,285"
+                    shape="rect">
             </map>
         </div>
     </div>
@@ -119,9 +352,15 @@
                     width="25px"></a>
             <a href="../pag-inicial/pag-inicial.html"><img class="casa" src="../../img/house-door-fill.svg" alt=""
                     width="25px"></a>
-            <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
+            <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"
+                    data-toggle="modal" data-target="#myModal"></a>
         </div>
     </div>
+
+    <script>
+       
+    </script>
+
 </body>
 
 </html>
