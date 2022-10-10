@@ -20,32 +20,33 @@
     <link rel="stylesheet" href="src/seja-bem-vindo/css/bons-estudos.css">
 
     <script src="src/js/verificaCookie.js" type="text/javascript">
-        
-        
+
+
     </script>
     <script>
-
         var cookieName = 'controleAcesso';
         var cookieValue = 'boasvindas';
-         if (verificarCookie(cookieName, cookieValue)) {
-        location.href = `${location.protocol}//${location.host}/public/src/pag-inicial/pag-inicial.html`;
-    } 
+        if (verificarCookie(cookieName, cookieValue)) {
+            location.href = `${location.protocol}//${location.host}/public/src/pag-inicial/pag-inicial.html`;
 
-    function pular(){
-        criarCookie(cookieName, cookieValue);
-}
+        }
+
+        function pular() {
+            criarCookie(cookieName, cookieValue);
+        }
     </script>
 
 </head>
 
 <body>
+    
     <div class="containertop">
         <div class="top">
             <!--Imagem do Pulmão-->
             <div class="imgSologan">
                 <img src="img/pulmao.png" alt="" width="100px" class="imgPulmao img-responsive">
             </div>
-    
+
             <!--Btn pular-->
             <div class="pular">
                 <a class="pular-a" href="src/pag-inicial/pag-inicial.html" onclick="pular()">
@@ -54,7 +55,7 @@
             </div>
         </div>
     </div>
-    
+
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="0">
 
         <ol class="carousel-indicators">
@@ -69,7 +70,7 @@
             <div class="carousel-item active">
 
                 <div class="container">
-             
+
                     <!--Titulo-->
                     <section class="titulo">
                         <h1>Seja Bem-Vindo</h1>
@@ -100,7 +101,7 @@
             <div class="carousel-item">
 
                 <div class="container">
-               
+
                     <!--Titulo-->
                     <section class="titulo">
                         <h1>O que é BioRespirar?</h1>
@@ -132,7 +133,7 @@
             <div class="carousel-item">
 
                 <div class="container">
-                   
+
                     <!--Titulo-->
                     <section class="titulo">
                         <h1>Bons Estudos!</h1>
