@@ -5,6 +5,10 @@
 }
 body{
     background: linear-gradient(#b8ffaa, #82c4fd);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .container {
     padding-top: 20px;
@@ -38,7 +42,6 @@ h1{
 
 .texto{
     display: flex;
-    height: 550px;
     
 }
 
