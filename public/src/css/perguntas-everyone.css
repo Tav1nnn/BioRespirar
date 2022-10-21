@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #9f82e6;
+
+}
+
+
+.container {
+    width: 100%;
+    background: linear-gradient(#b8ffaa, #82c4fd);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+form {
+
+    text-align: justify;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pergunta {
+    text-align: justify;
+    width: 95%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+label {
+    width: 95%;
+    max-width: 600px;
+    margin-top: 10px;
+    padding: 10px 3px 10px 3px;
+    display: flex;
+
+    border: 1px solid black;
+    word-break: break-word;
+    border-radius: 10px;
+
+
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+
+input[type=radio] {
+    display: none;
+}
+
+input:checked+label {
+    transition: all 0.5s ease-in-out;
+    border: solid 2px dodgerblue;
+    color: white;
+    background-color: dodgerblue;
+}
+
+input[type="submit"] {
+    border: 3px solid #4cf27c;
+    font-weight: 600;
+    font-size: 1em;
+    background-color: #4cf27c;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 40px;
+    width: 35%;
+}
+input[type="submit"]:hover {
+    background: transparent;;
+}
