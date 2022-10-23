@@ -11,12 +11,19 @@ h1 {
 
 }
 
+body{
+    background: linear-gradient(#b8ffaa, #82c4fd);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
 
 .container {
     width: 100%;
-    background: linear-gradient(#b8ffaa, #82c4fd);
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     overflow-y: auto;
 }
@@ -37,7 +44,7 @@ main {
 }
 
 form {
-
+    
     text-align: justify;
     width: 100%;
     max-width: 600px;
@@ -52,7 +59,7 @@ form {
     max-width: 600px;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 30px 10px 10px 10px;
 
 }
 
@@ -98,4 +105,10 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     background: transparent;;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 0.7em;
+    text-align: right;
 }
