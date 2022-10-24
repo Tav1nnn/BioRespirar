@@ -54,6 +54,8 @@ form {
 }
 
 .pergunta {
+    display: flex;
+    align-items: center;
     text-align: justify;
     width: 95%;
     max-width: 600px;
@@ -111,4 +113,9 @@ p{
     margin-top: 10px;
     font-size: 0.7em;
     text-align: right;
+}
+
+.img{
+    margin-top: 20px;
+    width: 50%;
 }
