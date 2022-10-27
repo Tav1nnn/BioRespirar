@@ -20,20 +20,22 @@
     <link rel="stylesheet" href="../css/pag-inicial.css">
     <link rel="stylesheet" href="../css/menu-rodape.css">
 
+    <script src="../js/gerenciarLocalStorage.js"></script>
 
-    <!--<script src="../js/verificaCookie.js"></script>
 
     <script>
-         var cookieName = 'controleAcesso';
-         var cookieValue = 'tutorial';
+        var keyName = 'tutorial';
 
-         if (!verificarCookie(cookieName, cookieValue)) {
+        if (!getLocalStorageItem(keyName)) {
+            showModal('mymodal');
+        }
+
+        function showModal(modalId) {
             jQuery(document).ready(function (e) {
-                    jQuery('#mymodal').trigger('click');
-                });
-         }
-        criarCookie(cookieName, cookieValue);
-    </script>-->
+                jQuery(`#${modalId}`).trigger('click');
+            });
+        }
+    </script>
 
 </head>
 
@@ -200,7 +202,7 @@
 
                 <!--Btn pular-->
                 <div class="pular">
-                    <a class="pular-a" onclick="criarCookie()" data-dismiss="modal">
+                    <a class="pular-a" onclick="setLocalStorageItem(keyName, true)" data-dismiss="modal">
                         <h4>PRÓXIMO</h4>
                     </a>
                 </div>
@@ -358,7 +360,7 @@
     </div>
 
     <script>
-       
+
     </script>
 
 </body>
