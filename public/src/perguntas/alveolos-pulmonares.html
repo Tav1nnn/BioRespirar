@@ -18,26 +18,25 @@
         <main>
             <div class="pergunta">
                 1-(Brasil escola)  A figura abaixo mostra uma estrutura muito importante do sistema respiratório. Observe a figura e marque a alternativa que indica corretamente o nome dessa parte do sistema respiratório e os processos que nela ocorrem.
-                <img class="img" src="../../img/alveolos-pulmonares.webp" alt="">
+                <img class="img" src="../../img/" alt="">
             </div>
             <form action="">
-                <input type="radio" name="input" id="a">
-                <label for="a">a) a figura 1 representa os brônquios, estruturas responsáveis por captar o ar atmosférico e transferi-lo para o sangue.
+                <input type="radio" name="input1" id="a" class="errado">
+                <label id="input1-label-a" for="a">a) a figura 1 representa os brônquios, estruturas responsáveis por captar o ar atmosférico e transferi-lo para o sangue.
                 </label>
-                <input type="radio" name="input" id="b">
+                <input type="radio" name="input1" id="b" class="errado">
                 <label for="b">b) a figura 1 ilustra os bronquíolos, estruturas responsáveis por fazer a filtração e o aquecimento do ar inspirado.
                 </label>
-                <input type="radio" name="input" id="c">
+            <input type="radio" name="input1" id="c" class="correto">
                 <label for="c">c) a figura 1 representa os alvéolos pulmonares, local onde ocorre o processo de hematose, ou seja, a passagem de gás oxigênio para o sangue e de gás carbônico do sangue para os pulmões.
                 </label>
-                <input type="radio" name="input" id="d">
+                <input type="radio" name="input1" id="d" class="errado">
                 <label for="d">
                     d) a figura 1 representa os pulmões, estruturas responsáveis por absorver o gás carbônico do ar atmosférico e transferi-lo para o sangue através do processo de hematose.
-                    
                 </label>
                
-                <input type="submit" value="Responder">
-
+                <input type="button" value="Responder" onclick="corrigir('input1')">
+                <input type="button" value="Ver Resposta" onclick="">
             </form>
             <div class="pergunta">
                 02 - (Mundo educação ) O caminho que o ar percorre até chegar aos alvéolos é constituído por:
@@ -131,6 +130,8 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
+
+    <script src="../js/perguntas.js"></script>
 </body>
 
 </html>

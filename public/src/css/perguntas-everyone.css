@@ -95,7 +95,19 @@ input:checked+label {
     background-color: dodgerblue;
 }
 
-input[type="submit"] {
+.red+label{
+    transition: all 0.5s ease-in-out;
+    color: white;
+    background-color: red !important;
+}
+
+.green+label{
+    transition: all 0.5s ease-in-out;
+    color: white;
+    background-color: green !important;
+}
+
+input[type="button"] {
     border: 3px solid #4cf27c;
     font-weight: 600;
     font-size: 1em;
