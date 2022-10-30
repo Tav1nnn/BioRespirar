@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Perguntas - Pulmão</title>
     <link rel="stylesheet" href="../css/perguntas-everyone.css">
     <link rel="stylesheet" href="../css/menu-rodape.css">
 </head>
@@ -13,7 +13,7 @@
 <body>
     <section class="container">
         <header>
-            <h1></h1>
+            <h1>Perguntas - Pulmão</h1>
         </header>
         <main>
             <div class="pergunta">
@@ -23,26 +23,26 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="a">
+                <input type="radio" name="input" id="a" class="errado">
                 <label for="a">a) A expiração é o movimento responsável pela entrada de ar pelas vias respiratórias.
 
                 </label>
-                <input type="radio" name="input" id="b">
+                <input type="radio" name="input" id="b" class="errado">
                 <label for="b">b) Na inspiração ocorre o relaxamento do diafragma e dos músculos intercostais, fazendo
                     com que o tórax aumente de tamanho.
 
                 </label>
-                <input type="radio" name="input" id="c">
+                <input type="radio" name="input" id="c" class="correto">
                 <label for="c">c) No processo de expiração ocorre a saída de ar dos pulmões em razão de uma diminuição
                     no volume da caixa torácica e um aumento da pressão interna.
 
                 </label>
-                <input type="radio" name="input" id="d">
+                <input type="radio" name="input" id="d" class="errado">
                 <label for="d">d) No processo de inspiração ocorre a contração dos músculos intercostais e do diafragma,
                     ocasionando uma pressão interna maior que a externa.
 
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input')">
 
             </form>
             <div class="pergunta">
@@ -52,27 +52,27 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="doisa">
+                <input type="radio" name="input2" id="doisa" class="errado">
                 <label for="doisa">a) diafragma,ele facilita a entrada de ar nos pulmões através da redução da pressão
                     na caixa torácica.
 
                 </label>
-                <input type="radio" name="input" id="doisb">
+                <input type="radio" name="input2" id="doisb" class="errado">
                 <label for="doisb">b) pericárdio, ele protege alguns órgão do sistema cardiovascular, facilitando a
                     segurança dos pulmões .
 
                 </label>
-                <input type="radio" name="input" id="doisc">
+                <input type="radio" name="input2" id="doisc" class="errado">
                 <label for="doisc">c) peritônio, ele facilita através do revestimento e proteção de órgãos abdominais e
                     pélvicos do corpo humano.
 
                 </label>
-                <input type="radio" name="input" id="doisd">
+                <input type="radio" name="input2" id="doisd" class="correto">
                 <label for="doisd">d) pleura, ela facilita o deslizamento do órgão no interior da caixa torácica.
 
                 </label>
 
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input2')">
 
             </form>
             <div class="pergunta">
@@ -83,32 +83,32 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="tresa">
+                <input type="radio" name="input3" id="tresa" class="errado">
                 <label for="tresa">a) músculos intercostais contraem-se e o diafragma relaxa, deixando a pressão interna
                     do pulmão menor que em relação ao ambiente externo, fazendo com que o ar entre os pulmões.
 
                 </label>
-                <input type="radio" name="input" id="tresb">
+                <input type="radio" name="input3" id="tresb" class="errado">
                 <label for="tresb">b) músculos intercostais relaxam e o diafragma contrai, deixando a pressão interna do
                     pulmão menor que em relação ao ambiente externo, fazendo com que o ar entre os pulmões.
 
                 </label>
-                <input type="radio" name="input" id="tresc">
+                <input type="radio" name="input3" id="tresc" class="errado">
                 <label for="tresc">c) músculos intercostais e o diafragma relaxam, deixando a pressão interna do pulmão
                     menor que em relação ao ambiente externo, fazendo com que o ar entre os pulmões.
 
                 </label>
-                <input type="radio" name="input" id="tresd">
+                <input type="radio" name="input3" id="tresd" class="correto">
                 <label for="tresd">d) músculos intercostais e o diafragma contrai, deixando a pressão interna do pulmão
                     menor que em relação ao ambiente externo, fazendo com que o ar entre os pulmões.
 
                 </label>
-                <input type="radio" name="input" id="trese">
+                <input type="radio" name="input3" id="trese" class="errado">
                 <label for="trese">e) músculos intercostais e o diafragma contrai, deixando a pressão interna do pulmão
                     maior que em relação ao ambiente externo, fazendo com que o ar saia dos pulmões.
 
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input3')">
 
             </form>
             <div class="pergunta">
@@ -118,27 +118,27 @@
                 não ocorre nos pulmões.
             </div>
             <form action="">
-                <input type="radio" name="input" id="quatroa">
+                <input type="radio" name="input4" id="quatroa" class="errado">
                 <label for="quatroa">a) tuberculose.
 
                 </label>
-                <input type="radio" name="input" id="quatrob">
+                <input type="radio" name="input4" id="quatrob" class="errado">
                 <label for="quatrob">b) pneumonia.
 
                 </label>
-                <input type="radio" name="input" id="quatroc">
+                <input type="radio" name="input4" id="quatroc" class="errado">
                 <label for="quatroc">c) bronquite.
 
                 </label>
-                <input type="radio" name="input" id="quatrod">
+                <input type="radio" name="input4" id="quatrod" class="correto">
                 <label for="quatrod">d) cistite.
 
                 </label>
-                <input type="radio" name="input" id="quatroe">
+                <input type="radio" name="input4" id="quatroe" class="errado">
                 <label for="quatroe">e) asma.
 
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input4')">
 
             </form>
             <div class="pergunta">
@@ -147,24 +147,24 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="cincoa">
+                <input type="radio" name="input5" id="cincoa" class="errado">
                 <label for="cincoa">a) relaxamento dos músculos intercostais.
 
                 </label>
-                <input type="radio" name="input" id="cincob">
+                <input type="radio" name="input5" id="cincob" class="errado">
                 <label for="cincob">b) retorno do tamanho da cavidade torácica.
 
                 </label>
-                <input type="radio" name="input" id="cincoc">
+                <input type="radio" name="input5" id="cincoc" class="errado">
                 <label for="cincoc">c) retração dos pulmões.
                 </label>
-                <input type="radio" name="input" id="cincod">
+                <input type="radio" name="input5" id="cincod" class="correto">
                 <label for="cincod">d) contração do diafragma.
                 </label>
-                <input type="radio" name="input" id="cincoe">
+                <input type="radio" name="input5" id="cincoe" class="errado">
                 <label for="cincoe">e) aumento da pressão intrapulmonar.
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input5')">
 
             </form>
             <div class="pergunta">
@@ -172,51 +172,51 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="seisa">
+                <input type="radio" name="input6" id="seisa" class="errado">
                 <label for="seisa"> a) inspiração, respiração.
 
                 </label>
-                <input type="radio" name="input" id="seisb">
+                <input type="radio" name="input6" id="seisb" class="errado">
                 <label for="seisb"> b) respiração, inspiração. 
 
                 </label>
-                <input type="radio" name="input" id="seisc">
+                <input type="radio" name="input6" id="seisc" class="errado">
                 <label for="seisc"> c) expedição, ventilação.
 
                 </label>
-                <input type="radio" name="input" id="seisd">
+                <input type="radio" name="input6" id="seisd" class="correto">
                 <label for="seisd">d) expiração, inspiração.
 
                 </label>
                
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input6')">
 
             </form>
             <div class="pergunta">
                 07) (IFSC/2014) Sobre sistema respiratório, assinale a alternativa CORRETA.
             </div>
             <form action="">
-                <input type="radio" name="input" id="setea">
+                <input type="radio" name="input7" id="setea" class="errado">
                 <label for="setea">a) as trocas gasosas se dão entre o ar alveolar e o sangue contido nos capilares. O sangue proveniente dos tecidos é rico em oxigênio e pobre em gás carbônico. O ar alveolar é rico em gás carbônico e pobre em oxigênio.
 
                 </label>
-                <input type="radio" name="input" id="seteb">
+                <input type="radio" name="input7" id="seteb" class="errado">
                 <label for="seteb">b) cada brônquio ramifica-se inúmeras vezes e origina traqueias progressivamente menos calibrosas, até se formarem os bronquíolos terminais. Estes, por sua vez, terminam em bolsinhas, de parede extremamente delgada, os alvéolos pulmonares.
 
                 </label>
-                <input type="radio" name="input" id="setec">
+                <input type="radio" name="input7" id="setec" class="correto">
                 <label for="setec">c) as fossas nasais (ou cavidades nasais) e a boca são os locais de entrada do ar que se dirige ao nosso sistema respiratório. O ar que entra pelas fossas nasais é filtrado, umedecido e aquecido, antes de ir para a traqueia. Os cílios que revestem o epitélio das fossas nasais retêm partículas de sujeira e micro-organismos que existem no ar.
 
                 </label>
-                <input type="radio" name="input" id="seted">
-                <label for="d">d) a entrada de ar nos pulmões, a expiração, se dá pela contração da musculatura do diafragma e dos músculos intercostais. O diafragma abaixa e as costelas se elevam, o que aumenta o volume da caixa torácica, forçando o ar a entrar nos pulmões.
+                <input type="radio" name="input7" id="seted" class="errado">
+                <label for="seted">d) a entrada de ar nos pulmões, a expiração, se dá pela contração da musculatura do diafragma e dos músculos intercostais. O diafragma abaixa e as costelas se elevam, o que aumenta o volume da caixa torácica, forçando o ar a entrar nos pulmões.
 
                 </label>
-                <input type="radio" name="input" id="setee">
+                <input type="radio" name="input7" id="setee" class="errado">
                 <label for="setee">e) a faringe tem importante função ao impedir a entrada de alimento nas vias aéreas inferiores e garantir a fonação. No homem, é formada por nove peças de cartilagem.
 
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input7')">
 
             </form>
 
@@ -231,6 +231,9 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
+
+    <script src="../js/perguntas.js"></script>
+
 </body>
 
 </html>

@@ -22,19 +22,19 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="a">
+                <input type="radio" name="input" id="a" class="correto">
                 <label for="a">a) retirando impurezas do ar, como poeira e agentes patogênicos.
                 </label>
-                <input type="radio" name="input" id="b">
+                <input type="radio" name="input" id="b" class="errado">
                 <label for="b">b) resfriando e umedecendo o ar.
                 </label>
-                <input type="radio" name="input" id="c">
+                <input type="radio" name="input" id="c" class="errado">
                 <label for="c">c) auxiliando no processo de hematose.
                 </label>
-                <input type="radio" name="input" id="d">
+                <input type="radio" name="input" id="d" class="errado">
                 <label for="d">d) resfriando o ar e fornecendo proteção contra entrada de microorganismos.
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input')">
 
             </form>
 
@@ -44,28 +44,26 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="doisa">
+                <input type="radio" name="input2" id="doisa" class="errado">
                 <label for="doisa">a) nas cavidades nasais, o ar é resfriado e filtrado.
 
                 </label>
-                <input type="radio" name="input" id="doisb">
+                <input type="radio" name="input2" id="doisb" class="correto">
                 <label for="doisb">b) nas cavidades nasais, temos muco e pelos, que atuam como verdadeiros filtros. Além
                     disso, no nariz o ar é umedecido e aquecido.
                 </label>
-                <input type="radio" name="input" id="doisc">
+                <input type="radio" name="input2" id="doisc" class="errado">
                 <label for="doisc">c) quando inspiramos pela boca, o ar não chega aos pulmões.
                 </label>
-                <input type="radio" name="input" id="doisd">
+                <input type="radio" name="input2" id="doisd" class="errado">
                 <label for="doisd">d) respirar pelo nariz é importante, mas não essencial, uma vez que a única função
                     dessa estrutura é perceber cheiros.
-
                 </label>
-                <input type="radio" name="input" id="e">
+                <input type="radio" name="input2" id="e" class="errado">
                 <label for="e">e) é importante para garantir que o oxigênio seja captado pelas células, uma vez que
                     nessa região ocorrem as trocas gasosas.
-
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input2')">
 
             </form>
 
@@ -81,6 +79,8 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
+
+    <script src="../js/perguntas.js"></script>
 </body>
 
 </html>

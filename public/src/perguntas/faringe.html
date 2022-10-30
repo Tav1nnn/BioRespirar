@@ -22,35 +22,34 @@
             </div>
             <form action="">
 
-                <input type="submit" value="Responder">
+                <input type="button" value="Ver Resposta">
 
             </form>
 
             <div class="pergunta">
                 2- (Mundo Educação - adaptada) A faringe é um órgão que faz comunicação com:
-
             </div>
             <form action="">
-                <input type="radio" name="input" id="a">
+                <input type="radio" name="input" id="a" class="errado">
                 <label for="a">
                     a) apenas com a laringe.
                 </label>
-                <input type="radio" name="input" id="b">
+                <input type="radio" name="input" id="b" class="errado">
                 <label for="b">
                     b) apenas com o esôfago.
                 </label>
-                <input type="radio" name="input" id="c">
+                <input type="radio" name="input" id="c" class="correto">
                 <label for="c">
                     c) laringe e esôfago.
                 </label>
-                <input type="radio" name="input" id="d">
+                <input type="radio" name="input" id="d" class="errado">
                 <label for="d">
                     d) traqueia e estômago.
                 </label>
-                <input type="radio" name="input" id="e">
+                <input type="radio" name="input" id="e" class="errado">
                 <label for="e">e) esôfago e estômago.
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input')">
 
             </form>
 
@@ -65,6 +64,9 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
+
+    <script src="../js/perguntas.js"></script>
+
 </body>
 
 </html>

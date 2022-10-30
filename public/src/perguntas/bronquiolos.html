@@ -20,23 +20,23 @@
                 1- (Mundo educação ) O sistema respiratório possui como função principal permitir a entrada de oxigênio no nosso corpo e a saída de gás carbônico. A respeito desse sistema, marque a alternativa que indica corretamente o nome das estruturas indicadas pelo número 1, 2 e 3 na figura a seguir:
                 <img class="img" src="../../img/sistema-respiratorio.webp" alt="">
             <form action="">
-                <input type="radio" name="input" id="a">
+                <input type="radio" name="input" id="a" class="errado">
                 <label for="a">a) 1- laringe; 2- traqueia; 3- pulmões.
                 </label>
-                <input type="radio" name="input" id="b">
+                <input type="radio" name="input" id="b" class="errado">
                 <label for="b">b) 1- traqueia; 2- pulmão; 3- alvéolos.
 
                 </label>
-                <input type="radio" name="input" id="c">
+                <input type="radio" name="input" id="c" class="errado">
                 <label for="c">c) 1- traqueia; 2- brônquio; 3- pulmões.
                 </label>
-                <input type="radio" name="input" id="d">
+                <input type="radio" name="input" id="d" class="errado">
                 <label for="d">d) 1- brônquio; 2- bronquíolo; 3- alvéolos.
                 </label>
-                <input type="radio" name="input" id="e">
+                <input type="radio" name="input" id="e" class="correto">
                 <label for="e">e) 1- traqueia; 2- brônquio; 3- alvéolos.
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input')">
 
             </form>
 
@@ -51,6 +51,8 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
+
+    <script src="../js/perguntas.js"></script>
 </body>
 
 </html>

@@ -21,27 +21,27 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="a">
+                <input type="radio" name="input" id="a" class="errado">
                 <label for="a">a) válvulas em toda a sua extensão, fazendo movimento de abrir e fechar de modo que o ar possa ser conduzido.
 
                 </label>
-                <input type="radio" name="input" id="b">
+                <input type="radio" name="input" id="b" class="errado">
                 <label for="b">b) ossos rígidos em formato tubular que envolvem a traqueia internamente, fazendo com que as paredes não se unam.
 
                 </label>
-                <input type="radio" name="input" id="c">
+                <input type="radio" name="input" id="c" class="correto">
                 <label for="c">c) anéis cartilaginosos em toda a sua extensão, deixando a traqueia sempre com formato tubular oco.
 
                 </label>
-                <input type="radio" name="input" id="d">
+                <input type="radio" name="input" id="d" class="errado">
                 <label for="d">d) diferentes músculos que se contraem e relaxam, de modo a deixar traquéia oca e conduzir a passagem do ar.
 
                 </label>
-                <input type="radio" name="input" id="e">
+                <input type="radio" name="input" id="e" class="errado">
                 <label for="e">e) a traqueia é composta por anéis cartilaginosos em formato de C, dispostos horizontalmente um sobre os outros. Esses anéis fazem com que a traqueia seja rígida e sempre oca, não permitindo o colapso de suas paredes.
 
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input')">
 
             </form>
             <div class="pergunta">
@@ -50,27 +50,27 @@
                 
             </div>
             <form action="">
-                <input type="radio" name="input" id="doisa">
+                <input type="radio" name="input2" id="doisa" class="errado">
                 <label for="doisa">a) cilíndrico boca e bronquíolos.
 
                 </label>
-                <input type="radio" name="input" id="doisb">
+                <input type="radio" name="input2" id="doisb" class="errado">
                 <label for="doisb">b) redondo, faringe e bronquíolos.
 
                 </label>
-                <input type="radio" name="input" id="doisc">
+                <input type="radio" name="input2" id="doisc" class="errado">
                 <label for="doisc">c) redondo, laringe e brônquios.
 
                 </label>
-                <input type="radio" name="input" id="doisd">
+                <input type="radio" name="input2" id="doisd" class="errado">
                 <label for="doisd">d) cilíndrico, laringe e pulmões.
 
                 </label>
-                <input type="radio" name="input" id="doise">
+                <input type="radio" name="input2" id="doise" class="correto">
                 <label for="doise">e) cilíndrico, laringe e brônquios.
 
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input2')">
 
             </form>
             <div class="pergunta">
@@ -78,26 +78,26 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="tresa">
+                <input type="radio" name="input3" id="tresa" class="errado">
                 <label for="tresa">a) um brônquio.
 
                 </label>
-                <input type="radio" name="input" id="tresb">
+                <input type="radio" name="input3" id="tresb" class="errado">
                 <label for="tresb">b) dois brônquios.
 
                 </label>
-                <input type="radio" name="input" id="tresc">
+                <input type="radio" name="input3" id="tresc" class="correto">
                 <label for="tresc">c) três brônquios.
 
                 </label>
-                <input type="radio" name="input" id="tresd">
+                <input type="radio" name="input3" id="tresd" class="errado">
                 <label for="tresd">d) quatro brônquios.
 
                 </label>
-                <input type="radio" name="input" id="trese">
+                <input type="radio" name="input3" id="trese" class="errado">
                 <label for="trese">e) cinco brônquios.
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input3')">
 
             </form>
 
@@ -112,6 +112,9 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
+
+    <script src="../js/perguntas.js"></script>
+
 </body>
 
 </html>

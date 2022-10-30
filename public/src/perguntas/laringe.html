@@ -21,30 +21,30 @@
                 comunicação por meio da fala e quais estruturas permitem a fala?
             </div>
             <form action="">
-                <input type="submit" value="Responder">
+                <input type="button" value="Ver Resposta">
             </form>
             <div class="pergunta">
                 2- (Brasil escola) Marque a alternativa que indica corretamente o nome dado ao prolongamento que se
                 estende da laringe na direção da faringe e que impede a entrada do alimento no sistema respiratório.
             </div>
             <form action="">
-                <input type="radio" name="input" id="a">
+                <input type="radio" name="input" id="a" class="correto">
                 <label for="a">a) epiglote.
                 </label>
-                <input type="radio" name="input" id="b">
+                <input type="radio" name="input" id="b" class="errado">
                 <label for="b">b) adenoide.
                 </label>
-                <input type="radio" name="input" id="c">
+                <input type="radio" name="input" id="c" class="errado">
                 <label for="c">c) coróide.
                 </label>
-                <input type="radio" name="input" id="d">
+                <input type="radio" name="input" id="d" class="errado">
                 <label for="d">d) alvéolo.
                 </label>
-                <input type="radio" name="input" id="e">
+                <input type="radio" name="input" id="e" class="errado">
                 <label for="e">e) traqueia.
 
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input')">
 
             </form>
 
@@ -53,22 +53,22 @@
                 faringe e, posteriormente, passa pela(o):
             </div>
             <form action="">
-                <input type="radio" name="input" id="tresa">
+                <input type="radio" name="input3" id="tresa" class="errado">
                 <label for="tresa">a) traqueia.
                 </label>
-                <input type="radio" name="input" id="tresb">
+                <input type="radio" name="input3" id="tresb" class="errado">
                 <label for="tresb">b) boca.
                 </label>
-                <input type="radio" name="input" id="tresc">
+                <input type="radio" name="input3" id="tresc" class="correto">
                 <label for="tresc">c) laringe.
                 </label>
-                <input type="radio" name="input" id="tresd">
+                <input type="radio" name="input3" id="tresd" class="errado">
                 <label for="tresd">d) brônquio primário.
                 </label>
-                <input type="radio" name="input" id="e">
+                <input type="radio" name="input3" id="trese" class="errado">
                 <label for="e">e) brônquio secundário.
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input3')">
 
             </form>
 
@@ -87,24 +87,24 @@
 
             </div>
             <form action="">
-                <input type="radio" name="input" id="quatroa">
+                <input type="radio" name="input4" id="quatroa" class="correto">
                 <label for="quatroa">a) a laringe é um tubo curto de cartilagem que conecta a faringe à traqueia e tem a
                     função de dar passagem ao ar e de produzir a voz.
 
                 </label>
-                <input type="radio" name="input" id="quatrob">
+                <input type="radio" name="input4" id="quatrob" class="errado">
                 <label for="quatrob">b) a laringe é um órgão comum aos sistemas respiratório e digestório.
 
                 </label>
-                <input type="radio" name="input" id="quatroc">
+                <input type="radio" name="input4" id="quatroc" class="errado">
                 <label for="quatroc">c) são fatores de risco para o câncer de laringe a poluição do ar, o tabagismo e o
                     uso abusivo de álcool.
                 </label>
-                <input type="radio" name="input" id="quatrod">
+                <input type="radio" name="input4" id="quatrod" class="errado">
                 <label for="quatrod">d) a cartilagem tireóidea forma a parede anterior da laringe, sendo conhecida
                     popularmente como pomo de Adão e em sua margem anterior e no osso hioide fixa-se a epiglote.
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input4')">
 
             </form>
 
@@ -119,6 +119,8 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
+
+    <script src="../js/perguntas.js"></script>
 </body>
 
 </html>

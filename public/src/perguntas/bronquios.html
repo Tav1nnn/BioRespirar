@@ -21,22 +21,22 @@
                 brônquios estão localizados e qual o nome dos ultimos ramos dos bronquios:
             </div>
             <form action="">
-                <input type="radio" name="input" id="a">
+                <input type="radio" name="input" id="a" class="errado">
                 <label for="a">a) traqueia.
                 </label>
-                <input type="radio" name="input" id="b">
+                <input type="radio" name="input" id="b" class="errado">
                 <label for="b">b) faringe, brônquios primários.
                 </label>
-                <input type="radio" name="input" id="c">
+                <input type="radio" name="input" id="c" class="errado">
                 <label for="c">c) laringe, bronquíolos.
                 </label>
-                <input type="radio" name="input" id="d">
+                <input type="radio" name="input" id="d" class="correto">
                 <label for="d">d) traqueia, bronquíolos.
                 </label>
-                <input type="radio" name="input" id="e">
+                <input type="radio" name="input" id="e" class="errado">
                 <label for="e">e) traqueia, brônquios secundários.
                 </label>
-                <input type="submit" value="Responder">
+                <input type="button" value="Responder" onclick="corrigir('input')">
 
             </form>
 
@@ -51,6 +51,8 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
+
+    <script src="../js/perguntas.js"></script>
 </body>
 
 </html>
