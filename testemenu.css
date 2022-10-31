@@ -1,42 +1,22 @@
-*{
-    background-color: #9f82e6;
-}
-
-h1{
-    color: white;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    overflow-y: auto;
 }
 
-#btn-acessar{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-
-/*CLASSE DO BOTÃO*/
-.btn{
-    width: 200px;
-    color: black;
-    font-weight: bold;
-    background-color: #4cf27c;
-    border: none;
-}
-.btn:hover{
-    background-color: green;
-    color: white;
+header{
+    height: 50vh;
+    background-color: aqua;
 }
 
-img{
-    height: 140px;
-    width: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main{
+    height: 50vh;
+    background-color: beige;
+}
+footer{
+    height: 50vh;
+    background-color: aquamarine;
 }
 
-/*DIV DO 
