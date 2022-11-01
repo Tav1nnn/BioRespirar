@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+   
 }
 
 body{
@@ -58,6 +59,7 @@ h2 {
 p{
     text-align: justify;
     padding: 10px;
+    font-size: 1.2em !important;
 }
 
 a{
