@@ -153,9 +153,15 @@ a.btn{
     font-size: 1em;
 }
 
-.img{
+.imgg{
     margin-top: 20px;
     width: 50%;
+}
+
+.balloon-text{
+    margin: 10px;
+    font-size: 1em;
+    text-align: justify;
 }
 
 p{

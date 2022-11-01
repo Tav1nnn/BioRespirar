@@ -9,6 +9,8 @@
     <link rel="icon" href="../../icon-192x192.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/tutorial.css">
+    <link rel="stylesheet" href="../css/balao.css">
     <link rel="stylesheet" href="../css/perguntas-everyone.css">
     <link rel="stylesheet" href="../css/menu-rodape.css">
 </head>
@@ -122,13 +124,58 @@
         </main>
 
     </section>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        style="display: none;">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="containertop">
+                <div class="top">
+                    <!--Imagem do Pulmão-->
+                    <div class="imgSologan">
+                        <img src="../../img/pulmao.png" alt="" width="100px" class="imgPulmao img-responsive">
+                    </div>
+
+                    <!--Btn pular-->
+                    <div class="pular">
+                        <a class="pular-a" id="mymodal" data-toggle="modal" data-target="#myModal2"
+                            data-dismiss="modal">
+                            <h4>FECHAR</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="balloon-boxx balloon-circle">
+                    <h4 class="balao">
+                        <p class="balloon-text">
+                            Algumas telas de "Informações Adicionais" e "Principais Doenças" contém
+                            um título em azul, que possui um vídeo sobre o assunto abordado. Basta clicar em cima do
+                            título para assistir</p>
+                    </h4>
+                </div>
+
+            </div>
+            <div class="">
+                <div class="img" id="tutorial2">
+                    <img src="../../img/avatar1.png" alt="" height="300px">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="menu">
         <div class="center">
             <a href="../menus/m-cavidades-nasais.html"><img class="seta" src="../../img/arrow.svg" alt=""
                     width="25px"></a>
             <a href="../pag-inicial/pag-inicial.html"><img class="casa" src="../../img/house-door-fill.svg" alt=""
                     width="25px"></a>
-            <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
+            <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal10"><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
