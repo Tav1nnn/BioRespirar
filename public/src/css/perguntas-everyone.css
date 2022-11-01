@@ -118,7 +118,28 @@ input[type="button"]{
     margin-top: 40px;
     width: 35%;
 }
-input[type="submit"]:hover {
+input[type="button"]:hover {
+    background: transparent;;
+}
+
+.btn-primary{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #4cf27c;
+    font-weight: 600;
+    font-size: 1em;
+    background-color: #4cf27c;
+    height: 40px;
+    cursor: pointer;
+    margin: 10px 0px 10px 0px;
+    width: 35%;
+}
+
+.btn-primary:hover {
+    border: 3px solid #4cf27c;
+    color: black;
     background: transparent;;
 }
 

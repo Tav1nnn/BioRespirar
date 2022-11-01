@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perguntas - Pulmão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/perguntas-everyone.css">
     <link rel="stylesheet" href="../css/menu-rodape.css">
 </head>
 
 <body>
- 
-        <header>
-            <h1>Perguntas - Pulmão</h1>
-        </header>
-        <section class="container">
+
+    <header>
+        <h1>Perguntas - Pulmão</h1>
+    </header>
+    <section class="container">
         <main>
             <div class="pergunta">
                 1- (Brasil-escola) Sabemos que a respiração só é possível em virtude da movimentação conjunta de
@@ -44,7 +46,32 @@
 
                 </label>
                 <input type="button" value="Responder" onclick="corrigir('input')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alternativa “c”. No processo de expiração ocorre o relaxamento dos músculos
+                                intercostais, bem como do diafragma, ocasionando assim a redução do volume da caixa
+                                torácica. A redução do volume faz com que a pressão interna seja maior quando comparada
+                                à externa, o que permite que o ar saia.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div class="pergunta">
                 2- (Mundo educação) Os pulmões são órgãos esponjosos, formados por milhões de alvéolos pulmonares, que
@@ -74,7 +101,30 @@
                 </label>
 
                 <input type="button" value="Responder" onclick="corrigir('input2')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alternativa “d”. Os pulmões são revestidos por uma membrana que recebe o nome de pleura.
+                                Essa estrutura facilita o deslizamento do órgão no interior da caixa torácica.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div class="pergunta">
                 3 - (Mundo educação) Sabemos que o ato de respirar é composto pelos movimentos de inspiração e de
@@ -110,7 +160,31 @@
 
                 </label>
                 <input type="button" value="Responder" onclick="corrigir('input3')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alternativa “d”. No momento da inspiração, ocorre a contração dos músculos intercostais
+                                e do diafragma, ocasionando o aumento da caixa torácica e uma diminuição da pressão
+                                interna.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div class="pergunta">
                 4- (Toda matéria) Agentes externos, como fungos, poeira e pólen, podem ser causadores de doenças no
@@ -140,10 +214,43 @@
 
                 </label>
                 <input type="button" value="Responder" onclick="corrigir('input4')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alternativa correta: d) Cistite.
+                                a) CORRETA. A tuberculose é uma doença causada por uma infecção principalmente no pulmão
+                                devido à bactéria chamada de Bacilo de Koch (BK). <br>
+                                b) CORRETA. A pneumonia é uma doença causada por microrganismos (bactérias, vírus,
+                                parasitas, fungos) e causam infecções nos pulmões. <br>
+                                c) CORRETA. A bronquite é um tipo de infecção causada principalmente por vírus que
+                                atacam os bronquíolos nos pulmões. <br>
+                                d) ERRADA. A cistite acontece por causa de uma inflamação ou irritação na bexiga,
+                                comprometendo seu funcionamento. <br>
+                                e) CORRETA. A asma é uma doença que afeta os brônquios nos pulmões e causa dificuldades
+                                para respirar. <br>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div class="pergunta">
-                5-(Brasil escola)  Analise os processos descritos a seguir e marque o único não relacionado à expiração:
+                5-(Brasil escola) Analise os processos descritos a seguir e marque o único não relacionado à expiração:
 
 
             </div>
@@ -166,7 +273,29 @@
                 <label for="cincoe">e) aumento da pressão intrapulmonar.
                 </label>
                 <input type="button" value="Responder" onclick="corrigir('input5')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alternativa “d”. A contração do diafragma ocorre no processo de inspiração.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div class="pergunta">
                 6- Como se designa a saída e a entrada do ar dos pulmões?
@@ -178,7 +307,7 @@
 
                 </label>
                 <input type="radio" name="input6" id="seisb" class="errado">
-                <label for="seisb"> b) respiração, inspiração. 
+                <label for="seisb"> b) respiração, inspiração.
 
                 </label>
                 <input type="radio" name="input6" id="seisc" class="errado">
@@ -189,36 +318,100 @@
                 <label for="seisd">d) expiração, inspiração.
 
                 </label>
-               
-                <input type="button" value="Responder" onclick="corrigir('input6')">
 
+                <input type="button" value="Responder" onclick="corrigir('input6')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                    Ver Resposta
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                A alternativa D. Inspiração é quando o ar adentra os pulmões e expiração é quando o ar
+                                sai dos pulmões.
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div class="pergunta">
                 07) (IFSC/2014) Sobre sistema respiratório, assinale a alternativa CORRETA.
             </div>
             <form action="">
                 <input type="radio" name="input7" id="setea" class="errado">
-                <label for="setea">a) as trocas gasosas se dão entre o ar alveolar e o sangue contido nos capilares. O sangue proveniente dos tecidos é rico em oxigênio e pobre em gás carbônico. O ar alveolar é rico em gás carbônico e pobre em oxigênio.
+                <label for="setea">a) as trocas gasosas se dão entre o ar alveolar e o sangue contido nos capilares. O
+                    sangue proveniente dos tecidos é rico em oxigênio e pobre em gás carbônico. O ar alveolar é rico em
+                    gás carbônico e pobre em oxigênio.
 
                 </label>
                 <input type="radio" name="input7" id="seteb" class="errado">
-                <label for="seteb">b) cada brônquio ramifica-se inúmeras vezes e origina traqueias progressivamente menos calibrosas, até se formarem os bronquíolos terminais. Estes, por sua vez, terminam em bolsinhas, de parede extremamente delgada, os alvéolos pulmonares.
+                <label for="seteb">b) cada brônquio ramifica-se inúmeras vezes e origina traqueias progressivamente
+                    menos calibrosas, até se formarem os bronquíolos terminais. Estes, por sua vez, terminam em
+                    bolsinhas, de parede extremamente delgada, os alvéolos pulmonares.
 
                 </label>
                 <input type="radio" name="input7" id="setec" class="correto">
-                <label for="setec">c) as fossas nasais (ou cavidades nasais) e a boca são os locais de entrada do ar que se dirige ao nosso sistema respiratório. O ar que entra pelas fossas nasais é filtrado, umedecido e aquecido, antes de ir para a traqueia. Os cílios que revestem o epitélio das fossas nasais retêm partículas de sujeira e micro-organismos que existem no ar.
+                <label for="setec">c) as fossas nasais (ou cavidades nasais) e a boca são os locais de entrada do ar que
+                    se dirige ao nosso sistema respiratório. O ar que entra pelas fossas nasais é filtrado, umedecido e
+                    aquecido, antes de ir para a traqueia. Os cílios que revestem o epitélio das fossas nasais retêm
+                    partículas de sujeira e micro-organismos que existem no ar.
 
                 </label>
                 <input type="radio" name="input7" id="seted" class="errado">
-                <label for="seted">d) a entrada de ar nos pulmões, a expiração, se dá pela contração da musculatura do diafragma e dos músculos intercostais. O diafragma abaixa e as costelas se elevam, o que aumenta o volume da caixa torácica, forçando o ar a entrar nos pulmões.
+                <label for="seted">d) a entrada de ar nos pulmões, a expiração, se dá pela contração da musculatura do
+                    diafragma e dos músculos intercostais. O diafragma abaixa e as costelas se elevam, o que aumenta o
+                    volume da caixa torácica, forçando o ar a entrar nos pulmões.
 
                 </label>
                 <input type="radio" name="input7" id="setee" class="errado">
-                <label for="setee">e) a faringe tem importante função ao impedir a entrada de alimento nas vias aéreas inferiores e garantir a fonação. No homem, é formada por nove peças de cartilagem.
+                <label for="setee">e) a faringe tem importante função ao impedir a entrada de alimento nas vias aéreas
+                    inferiores e garantir a fonação. No homem, é formada por nove peças de cartilagem.
 
                 </label>
                 <input type="button" value="Responder" onclick="corrigir('input7')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                a) Falsa. O ar presente nos alvéolos pulmonares é rico em gás oxigênio (O2), enquanto o
+                                ar presente nos capilares alveolares é rico em dióxido de carbono (CO2). <br>
+                                b) Falsa. Os bronquíolos são provenientes da ramificação dos brônquios; estes partem da
+                                traqueia. <br>
+                                c) Verdadeira. <br>
+                                d) Falsa. A entrada de ar aos pulmões é a inspiração. <br>
+                                e)Falsa. A epiglote impede a entrada de alimento na laringe e, consequentemente, nas
+                                vias respiratórias inferiores. <br>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
 
         </main>
@@ -232,7 +425,9 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <script src="../js/perguntas.js"></script>
 
 </body>

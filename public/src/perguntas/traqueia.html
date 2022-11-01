@@ -6,49 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perguntas - Traqueia</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/perguntas-everyone.css">
     <link rel="stylesheet" href="../css/menu-rodape.css">
 </head>
 
 <body>
-   
-        <header>
-            <h1>Perguntas - Traqueia</h1>
-        </header>
-        <section class="container">
+
+    <header>
+        <h1>Perguntas - Traqueia</h1>
+    </header>
+    <section class="container">
         <main>
             <div class="pergunta">
-                1-(Quero bolsa) A traquéia é um tubo pertencente ao sistema respiratório. Para manter sempre o tubo oco e assim permitir a passagem de ar, a traqueia possui:
+                1-(Quero bolsa) A traquéia é um tubo pertencente ao sistema respiratório. Para manter sempre o tubo oco
+                e assim permitir a passagem de ar, a traqueia possui:
 
             </div>
             <form action="">
                 <input type="radio" name="input" id="a" class="errado">
-                <label for="a">a) válvulas em toda a sua extensão, fazendo movimento de abrir e fechar de modo que o ar possa ser conduzido.
+                <label for="a">a) válvulas em toda a sua extensão, fazendo movimento de abrir e fechar de modo que o ar
+                    possa ser conduzido.
 
                 </label>
                 <input type="radio" name="input" id="b" class="errado">
-                <label for="b">b) ossos rígidos em formato tubular que envolvem a traqueia internamente, fazendo com que as paredes não se unam.
+                <label for="b">b) ossos rígidos em formato tubular que envolvem a traqueia internamente, fazendo com que
+                    as paredes não se unam.
 
                 </label>
                 <input type="radio" name="input" id="c" class="correto">
-                <label for="c">c) anéis cartilaginosos em toda a sua extensão, deixando a traqueia sempre com formato tubular oco.
+                <label for="c">c) anéis cartilaginosos em toda a sua extensão, deixando a traqueia sempre com formato
+                    tubular oco.
 
                 </label>
                 <input type="radio" name="input" id="d" class="errado">
-                <label for="d">d) diferentes músculos que se contraem e relaxam, de modo a deixar traquéia oca e conduzir a passagem do ar.
+                <label for="d">d) diferentes músculos que se contraem e relaxam, de modo a deixar traquéia oca e
+                    conduzir a passagem do ar.
 
                 </label>
                 <input type="radio" name="input" id="e" class="errado">
-                <label for="e">e) a traqueia é composta por anéis cartilaginosos em formato de C, dispostos horizontalmente um sobre os outros. Esses anéis fazem com que a traqueia seja rígida e sempre oca, não permitindo o colapso de suas paredes.
+                <label for="e">e) a traqueia é composta por anéis cartilaginosos em formato de C, dispostos
+                    horizontalmente um sobre os outros. Esses anéis fazem com que a traqueia seja rígida e sempre oca,
+                    não permitindo o colapso de suas paredes.
 
                 </label>
                 <input type="button" value="Responder" onclick="corrigir('input')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alternativa "C". A traqueia é composta por anéis cartilaginosos em formato de C, dispostos horizontalmente um sobre os outros. Esses anéis fazem com que a traqueia seja rígida e sempre oca, não permitindo o colapso de suas paredes.
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div class="pergunta">
-                2- Marque a alternativa que apresenta as palavras que completam adequadamente os espaços existentes na frase abaixo:
+                2- Marque a alternativa que apresenta as palavras que completam adequadamente os espaços existentes na
+                frase abaixo:
                 A traqueia é um tubo _______ localizado após a __________ e que se ramifica em dois __________.
-                
+
             </div>
             <form action="">
                 <input type="radio" name="input2" id="doisa" class="errado">
@@ -72,7 +107,29 @@
 
                 </label>
                 <input type="button" value="Responder" onclick="corrigir('input2')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alternativa "D". Cilíndrico, laringe brônquios.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div class="pergunta">
                 3- (Mundo educação) A traqueia ramifica-se e origina:
@@ -99,7 +156,29 @@
                 <label for="trese">e) cinco brônquios.
                 </label>
                 <input type="button" value="Responder" onclick="corrigir('input3')">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    Ver Resposta
+                </button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Resposta</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Alternativa “b”. A traqueia ramifica-se e origina dois brônquios.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
 
         </main>
@@ -113,7 +192,9 @@
             <a href=""><img class="interrogacao" src="../../img/question-circle-fill.svg" alt="" width="25px"></a>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <script src="../js/perguntas.js"></script>
 
 </body>
