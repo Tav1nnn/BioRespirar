@@ -12,7 +12,7 @@
     
 <h2>Links</h2>
 <ul>
-    <li><h3>Aplicativo</h3> <br><a href="biorespirar.web.app">biorespirar.web.app</a></li>
+    <li><h3>Aplicativo</h3> <br><a href="https://biorespirar.web.app/">biorespirar.web.app</a></li>
     <li><h3>Artigo</h3><br> <a href="">Em Breve</a></li>
     <li><h3>Requisitos</h3><br> <a href="">Em Breve</a></li>
 </ul>
