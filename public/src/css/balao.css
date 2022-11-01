@@ -9,6 +9,17 @@
     align-items: center;
     position: relative;
   }
+  .balloon-boxx {
+    width: 240px;
+    height: 180px;
+    background: #f1f1f1;
+    border-radius: 26.5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
   
   .balloon-box::after {
     content: "";

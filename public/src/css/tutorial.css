@@ -29,6 +29,7 @@
 }
 
 a.pular-a {
+    cursor: pointer;
     text-decoration: none;
     color: white;
     text-decoration: underline;

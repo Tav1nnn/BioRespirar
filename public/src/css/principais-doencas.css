@@ -18,7 +18,7 @@
     max-width: 600px;
 }
 
-.top {
+.topp {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,6 +49,7 @@ ul {
 }
 
 h5 {
+
     color: black;
     text-align: justify;
 }
