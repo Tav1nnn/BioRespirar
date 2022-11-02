@@ -1,10 +1,12 @@
 <h1>BioRespirar</h1>
 
+<img href="https://biorespirar.web.app/img/pulmao.png"/>
+
 <h2>Autores</h2>
 <ul>
-  <li>Otavio Marques <br>marquesotavio251204@gmail.com</li>
-   <li>Giovani Apolinario Ocan<br>giovaniocan@gmail.com</li>
-  <li>Lucas Gabriel Ames<br>lucas.gabriel.ames@gmail.com</li>
+  <li>Otavio Marques <br>marquesotavio251204@gmail.com</li><br>
+   <li>Giovani Apolinario Ocan<br>giovaniocan@gmail.com</li><br>
+  <li>Lucas Gabriel Ames<br>lucas.gabriel.ames@gmail.com</li><br>
 </ul>
     
  <h2>Resumo</h2>
@@ -13,8 +15,8 @@
 <h2>Links</h2>
 <ul>
     <li><h3>Aplicativo</h3> <br><a href="https://biorespirar.web.app/">biorespirar.web.app</a></li>
-    <li><h3>Artigo</h3><br> <a href="">Em Breve</a></li>
-    <li><h3>Requisitos</h3><br> <a href="">Em Breve</a></li>
+    <li><h3>Artigo</h3><br> <a href="https://docs.google.com/document/d/1AxBS_pCb6nXLNt5z2rBqQ21rGvWCK4tdQxpaxf65VtE/edit?usp=sharing">https://docs.google.com/document/d/1AxBS_pCb6nXLNt5z2rBqQ21rGvWCK4tdQxpaxf65VtE/edit?usp=sharing</a></li>
+    <li><h3>Requisitos</h3><br> <a href="https://docs.google.com/document/d/1mUh4-fH9CKZ35GyJ1nDQIPiXDExFSIbrv5PgMoFYKas/edit?usp=sharing">https://docs.google.com/document/d/1mUh4-fH9CKZ35GyJ1nDQIPiXDExFSIbrv5PgMoFYKas/edit?usp=sharing</a></li>
 </ul>
 
 <div style="display: inline_block">
