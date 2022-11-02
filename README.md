@@ -10,7 +10,8 @@
 </ul>
     
  <h2>Resumo</h2>
- <p>Em Breve</p>
+ <p  style="text-aling=justify">O ensino de Biologia no Ensino Médio possui vários problemas na forma como o conhecimento é transmitido, como por exemplo o reducionismo presente nos livros didáticos e a utilização métodos antiquados. Como tentativa para solucionar este problema é proposto o desenvolvimento de um aplicativo para tornar a aprendizagem sobre o sistema respiratório humano mais interativo. Para isso se torna necessário desenvolver uma aplicação que rodasse em diversos sistemas operacionais diferentes, a fim de alcançar o máximo de alunos possíveis, e também deveria funcionar de modo off-line, pensando nas escolas que não possuem internet. Com isso, utilizaremos a tecnologia Progressive Web App para a implementação da nossa ferramenta de mídia digital, sendo a ferramenta que melhor atende às nossas necessidades.
+</p>
     
 <h2>Links</h2>
 <ul>
