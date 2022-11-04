@@ -16,8 +16,8 @@
 <h2>Links</h2>
 <ul>
     <li><h3>Aplicativo</h3> <br><a href="https://biorespirar.web.app/">biorespirar.web.app</a></li>
-    <li><h3>Artigo</h3><br> <a href="https://docs.google.com/document/d/1AxBS_pCb6nXLNt5z2rBqQ21rGvWCK4tdQxpaxf65VtE/edit?usp=sharing">https://docs.google.com/document/d/1AxBS_pCb6nXLNt5z2rBqQ21rGvWCK4tdQxpaxf65VtE/edit?usp=sharing</a></li>
-    <li><h3>Requisitos</h3><br> <a href="https://docs.google.com/document/d/1mUh4-fH9CKZ35GyJ1nDQIPiXDExFSIbrv5PgMoFYKas/edit?usp=sharing">https://docs.google.com/document/d/1mUh4-fH9CKZ35GyJ1nDQIPiXDExFSIbrv5PgMoFYKas/edit?usp=sharing</a></li>
+    <li><h3>Artigo</h3><br> <a href="https://drive.google.com/file/d/1_7UIDffeEi3KFQzZJtc2Dy0BZKDgZkO-/view?usp=sharing">https://drive.google.com/file/d/1_7UIDffeEi3KFQzZJtc2Dy0BZKDgZkO-/view?usp=sharing</a></li>
+    <li><h3>Requisitos</h3><br> <a href=https://drive.google.com/file/d/1qb_kXMiqac1KfJ_ke88hzuCSHm41fFX-/view?usp=sharing">https://drive.google.com/file/d/1qb_kXMiqac1KfJ_ke88hzuCSHm41fFX-/view?usp=sharing</a></li>
 </ul>
 
 <div style="display: inline_block">
