@@ -12,8 +12,6 @@ body{
 }
 .container {
     padding-top: 20px;
-    width: 100%;
-    max-width: 100vw;
     display: flex;
     justify-content: center;
 }

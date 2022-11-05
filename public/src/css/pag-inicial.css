@@ -12,8 +12,6 @@ body{
 }
 
 .container {
-    width: 100%;
-    max-width: 100vw;
     display: flex;
     justify-content: center;
 }
